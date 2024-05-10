@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://aws-0-ap-northeast-2.pooler.supabase.com:5432/postgres
+    username: postgres.fusbkyoikvyrosclporo
+    password: kN6oeN*yxYO*35tOc7
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml

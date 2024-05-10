@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.pet.service.user.service.UserMapper">
+    <insert id="add" parameterType="com.example.pet.service.user.UserVo">
+        INSERT INTO pet.pet_user_info(email,password,create_dat)
+        VALUES(#{email}, #{password}, #{createDat})
+    </insert>
+</mapper>
